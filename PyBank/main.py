@@ -63,11 +63,11 @@ if(os.path.isfile(csvpath_budget_data_1)):
         print("*" * 72) 
     
    # Exporting results to a text file
-    file = open('csvpath_budget_data_1.txt','a')
+    file = open('Results.txt','a')
     file.write("-----------------------------------\n")
     file.write('Financial Analysis for ' + csvpath_budget_data_1 + '\n')
     file.write("-----------------------------------\n")
-    file.write("Total Months:"+ str(len(totalMonths))+'\n')
+    file.write("Total Months:"+ str(totalMonths)+'\n')
     file.write('Total Revenue: $'+ str(totalRevenue)+'\n')
     file.write('Average Revenue Change: $'+ str(averageRevenueChange)+'\n')
     file.write("Greatest Increase in Revenue:"+ str(maxRevenueChange)+"($"+str(maxRevIndexDate)+")"+'\n')
@@ -135,11 +135,11 @@ if(os.path.isfile(csvpath_budget_data_2)):
         print("*" * 72) 
 
     # Exporting results to a text file
-    file = open('csvpath_budget_data_1.txt','a')
+    file = open('Results.txt','a')
     file.write("-----------------------------------\n")
     file.write('Financial Analysis for ' + csvpath_budget_data_2 + '\n')
     file.write("-----------------------------------\n")
-    file.write("Total Months:"+ str(len(totalMonths))+'\n')
+    file.write("Total Months:"+ str(totalMonths)+'\n')
     file.write('Total Revenue: $'+ str(totalRevenue)+'\n')
     file.write('Average Revenue Change: $'+ str(averageRevenueChange)+'\n')
     file.write("Greatest Increase in Revenue:"+ str(maxRevenueChange)+"($"+str(maxRevIndexDate)+")"+'\n')
