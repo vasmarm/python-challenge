@@ -88,7 +88,7 @@ votesPercentage = [0.00,0.00,0.00,0.00,0.00]
 
 # Checking if the File is Present or not
 if(os.path.isfile(csvpath_election_data_2)):
-    print("File election_data_1.csv Found! Let's Proceed")
+    print("File election_data_2.csv Found! Let's Proceed")
     
     # Open the CSV budget_data_1
     with open(csvpath_election_data_2, newline="") as csvfile:
