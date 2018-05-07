@@ -41,6 +41,7 @@ if(os.path.isfile(csvpath_election_data_1)):
             elif row[2] == 'Cordin':
                 votes[3] = votes[3] + 1
 
+        # Calculating Percentages of votes for each candidate
         for i in range(0,len(candidateList)):
             votesPercentage[i] = round((votes[i]/totalVotes)*100,2)    
 
@@ -113,6 +114,7 @@ if(os.path.isfile(csvpath_election_data_2)):
             elif row[2] == "O'Tooley":
                 votes[3] = votes[3] + 1
 
+        # Calculating Percentages of votes for each candidate
         for i in range(0,len(candidateList)):
             votesPercentage[i] = round((votes[i]/totalVotes)*100,2)    
 
