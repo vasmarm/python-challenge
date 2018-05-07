@@ -135,7 +135,7 @@ if(os.path.isfile(csvpath_election_data_2)):
     # Exporting results to a text file
     file = open('Poll_Results.txt','a')
     file.write("-" *72 + "\n")
-    file.write('Polls Analysis for ' + csvpath_election_data_1 + '\n')
+    file.write('Polls Analysis for ' + csvpath_election_data_2 + '\n')
     file.write("-" *72 + "\n")
     file.write("Total Number of Votes Casted:"+ str(totalVotes)+'\n')
     file.write("-" *72 + "\n")
